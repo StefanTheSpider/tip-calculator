@@ -1,1 +1,57 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #daa520;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 0;
+    font-size: 1.4rem;
+}
 
+.header-container {
+    width: 100%;
+    background-color: #0a0a0a;
+    color: #daa520;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container > select {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.split {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.button {
+    background-color: #0a0a0a;
+    color: #daa520;
+    width: 7rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.footer {
+    background-color: #0a0a0a;
+    width: 100%;
+    color: #daa520;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
