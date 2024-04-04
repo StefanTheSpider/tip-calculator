@@ -1,7 +1,7 @@
 export default function Header({ person, onPerson }) {
     return (
         <div className="header-container">
-            <h1 className="title">Welcome to Stefans tip Calculator</h1>
+            <h1 className="title">Welcome to Stefan's tip Calculator</h1>
             <span>How many are you?</span>
             <select
                 id="person"
