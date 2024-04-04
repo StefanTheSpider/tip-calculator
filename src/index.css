@@ -26,7 +26,6 @@ input {
 .header-container {
     padding-left: 1rem;
     padding-right: 1rem;
-    width: 100%;
     background-color: #0a0a0a;
     color: #daa520;
     display: flex;
