@@ -1,6 +1,6 @@
 export default function Tip({ tip, onSetTip }) {
     return (
-        <div>
+        <div className="bill-container">
             <label htmlFor="tip">How did you like the service? </label>
             <select
                 id="tip"

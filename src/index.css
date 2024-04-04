@@ -16,6 +16,8 @@ body {
 }
 
 .header-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
     width: 100%;
     background-color: #0a0a0a;
     color: #daa520;
@@ -30,6 +32,22 @@ body {
     margin-bottom: 1rem;
 }
 
+.header-container > select {
+    width: 4.5rem;
+    height: 1.8rem;
+    font-size: large;
+}
+
+.bill-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+}
+
 .total {
     display: flex;
     flex-direction: column;
@@ -42,6 +60,12 @@ body {
 .split {
     display: flex;
     gap: 0.5rem;
+    align-items: center;
+}
+
+.split > input {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .button {

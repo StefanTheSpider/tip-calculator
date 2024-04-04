@@ -1,6 +1,6 @@
 export default function Bill({ onSetBill }) {
     return (
-        <div>
+        <div className="bill-container">
             <label htmlFor="bill">How much was the bill? </label>
             <input
                 id="bill"
